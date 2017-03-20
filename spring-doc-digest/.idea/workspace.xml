@@ -1,0 +1,2060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="877da27f-8321-428b-b6d4-44e6b6ba0888" name="Default" comment="" />
+    <ignored path="spring-project-empty.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="spring-project-empty" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="service-context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/section7/service-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1904">
+              <caret line="112" column="55" selection-start-line="112" selection-start-column="55" selection-end-line="112" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="daos.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/section7/daos.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StateBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/beanscopes/StateBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/beanscopes/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lookup.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Lookup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/CommandManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandManager2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/CommandManager2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsyncCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/AsyncCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+              <folding>
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sendEmail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/util/SendMailSSL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/util/SendMailTLS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/util/MailSender.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/modules/user/hello.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/controller/SimpleController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.jsp" />
+        <option value="$PROJECT_DIR$/spring-read-properties.iml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/util/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/domain/Dog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/domain/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/dao/DogDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/daos.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/service/DogService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/domain/Foo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/domain/Bar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/other/ScheduleAtFixRateDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/domain/CircularB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/domain/CircularA.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/service-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/CircularB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/Bar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/beanoverview/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/ComplexObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/ExpensiveToCreateBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/OuterPerson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/CommandManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/AsyncCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/CommandManager3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/CommandManager2.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/section7/daos.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/section7/service-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/beanscopes/StateBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/beanscopes/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/apache-maven-3.3.9" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="mavenProperties">
+      <map>
+        <entry key="archetypeCatalog" value="internal" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-doc-digest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-doc-digest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-doc-digest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-doc-digest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-doc-digest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-doc-digest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-doc-digest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="section7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-doc-digest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-doc-digest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="Required&#9;PSI&#9;JAVA://org.springframework.beans.factory.annotation.Required&#10;BeanDefin&#9;FILE&#9;jar://C:/Users/hzfengzhou/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanDefinition.java&#10;BeanDe&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanDefinition&#10;BeanFa&#9;PSI&#9;JAVA://org.springframework.beans.factory.BeanFactory&#10;Servlet&#9;PSI&#9;JAVA://javax.servlet.Servlet&#10;Web&#9;PSI&#9;JAVA://org.springframework.web.context.WebApplicationContext" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.53333336" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github\java-examples\spring-read-properties\src\main" />
+      <recent name="D:\Github\java-examples\spring-read-properties\src\main\java" />
+      <recent name="D:\Github\spring-examples\spring-urlmap\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vonzhou.learn.section7.beanscopes" />
+      <recent name="com.vonzhou.learn.section7.dependencies" />
+      <recent name="com.vonzhou.learn.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Github\java-examples\spring-hello\src\main\java\com\vonzhou\learn\section7\dependencies" />
+      <recent name="D:\Github\java-examples\spring-hello\src\main\resources" />
+      <recent name="D:\Github\java-examples\spring-read-properties\src\main\resources" />
+      <recent name="D:\Github\spring-examples\spring-urlmap\src\main\webapp\WEB-INF\views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.vonzhou.learn.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.vonzhou.learn.util.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spring-read-properties" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.vonzhou.learn.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.vonzhou.learn.main.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spring-logging-example" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ScheduleAtFixRateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.vonzhou.learn.other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.vonzhou.learn.other.ScheduleAtFixRateDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spring-logging-example" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.vonzhou.learn.section7.dependencies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.vonzhou.learn.section7.dependencies.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spring-logging-example" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.vonzhou.learn.section7.beanscopes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.vonzhou.learn.section7.beanscopes.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spring-logging-example" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spring-email" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="K2JSConfigurationType" factoryName="Kotlin (JavaScript - experimental)">
+      <K2JSConfigurationSettings>
+        <option name="browserFamily" value="Chrome" />
+        <option name="generatedFilePath" value="$PROJECT_DIR$" />
+        <option name="pageToOpenFilePath" value="" />
+        <option name="shouldOpenInBrowserAfterTranslation" value="false" />
+      </K2JSConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.4" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="spring-logging-example:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring-read-properties" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62714" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="spring-logging-example:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ScheduleAtFixRateDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Main (2)" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ScheduleAtFixRateDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="877da27f-8321-428b-b6d4-44e6b6ba0888" name="Default" comment="" />
+      <created>1471929080946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1471929080946</updated>
+      <workItem from="1471929082397" duration="2714000" />
+      <workItem from="1471951691954" duration="5156000" />
+      <workItem from="1472029050087" duration="9684000" />
+      <workItem from="1480411055584" duration="5510000" />
+      <workItem from="1480418952116" duration="87000" />
+      <workItem from="1481167047071" duration="3580000" />
+      <workItem from="1481247944732" duration="2141000" />
+      <workItem from="1481283607474" duration="379000" />
+      <workItem from="1489730114649" duration="1305000" />
+      <workItem from="1489731527360" duration="2556000" />
+      <workItem from="1489734355821" duration="10081000" />
+      <workItem from="1490008337324" duration="6543000" />
+      <workItem from="1490017517010" duration="67000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="49803000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12913553" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1631753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1356119" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3425827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30843115" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24332978" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE-sources.jar!/org/springframework/web/util/WebAppRootListener.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/main/Main.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/spi/LoggingEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/UUID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6284">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+    <entry file="uml://MAVEN/com.vonzhou.learning:spring-read-properties:1.0">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.vonzhou.learning:spring-read-properties:1.0</OriginalElement>
+          <nodes>
+            <node x="0.0" y="596.0026041666667">com.vonzhou.learning:spring-read-properties:1.0</node>
+            <node x="1367.0" y="609.0590277777778">org.springframework:spring-core:jar:4.2.5.RELEASE</node>
+            <node x="1544.0" y="609.0590277777778">org.springframework:spring-core:jar:4.2.5.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="1181.0" y="716.0590277777778">org.springframework:spring-beans:jar:4.2.5.RELEASE</node>
+            <node x="537.5" y="716.078125">org.springframework:spring-web:jar:4.2.5.RELEASE</node>
+            <node x="987.5" y="631.453125">org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE</node>
+            <node x="1185.0" y="631.453125">org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="775.0" y="612.3116319444446">org.springframework:spring-context:jar:4.2.5.RELEASE</node>
+            <node x="969.0" y="576.703125">org.springframework:spring-context:jar:4.2.5.RELEASE/org.springframework:spring-expression:jar:4.2.5.RELEASE</node>
+            <node x="994.0" y="1002.578125">org.springframework:spring-tx:jar:4.2.5.RELEASE</node>
+            <node x="262.5" y="769.6866319444446">org.aspectj:aspectjweaver:jar:1.8.9</node>
+            <node x="259.0" y="585.9366319444446">org.springframework:spring-webmvc:jar:4.2.5.RELEASE</node>
+            <node x="273.0" y="488.56510416666674">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="283.0" y="0.0">javax.servlet.jsp:jsp-api:jar:2.0</node>
+            <node x="295.0" y="242.62760416666674">javax.servlet:jstl:jar:1.2</node>
+            <node x="241.0" y="653.2526041666667">mysql:mysql-connector-java:jar:5.1.34</node>
+            <node x="260.5" y="348.56510416666674">org.hibernate:hibernate-core:jar:5.0.7.Final</node>
+            <node x="776.5" y="482.50260416666674">org.hibernate:hibernate-core:jar:5.0.7.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
+            <node x="508.5" y="313.56510416666674">org.hibernate:hibernate-core:jar:5.0.7.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final</node>
+            <node x="547.0" y="383.56510416666674">org.hibernate:hibernate-core:jar:5.0.7.Final/org.javassist:javassist:jar:3.18.1-GA</node>
+            <node x="557.0" y="520.7526041666667">org.hibernate:hibernate-core:jar:5.0.7.Final/antlr:antlr:jar:2.7.7</node>
+            <node x="505.5" y="173.56510416666674">org.hibernate:hibernate-core:jar:5.0.7.Final/org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1</node>
+            <node x="550.5" y="243.56510416666674">org.hibernate:hibernate-core:jar:5.0.7.Final/org.jboss:jandex:jar:2.0.0.Final</node>
+            <node x="551.0" y="103.56510416666674">org.hibernate:hibernate-core:jar:5.0.7.Final/dom4j:dom4j:jar:1.6.1</node>
+            <node x="792.0" y="103.56510416666674">org.hibernate:hibernate-core:jar:5.0.7.Final/dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2</node>
+            <node x="476.0" y="469.75260416666674">org.hibernate:hibernate-core:jar:5.0.7.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final</node>
+            <node x="248.0" y="858.1866319444446">org.hibernate:hibernate-validator:jar:5.2.2.Final</node>
+            <node x="530.0" y="856.078125">org.hibernate:hibernate-validator:jar:5.2.2.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="530.0" y="786.078125">org.hibernate:hibernate-validator:jar:5.2.2.Final/org.jboss.logging:jboss-logging:jar:3.2.1.Final</node>
+            <node x="542.0" y="926.078125">org.hibernate:hibernate-validator:jar:5.2.2.Final/com.fasterxml:classmate:jar:1.1.0</node>
+            <node x="288.0" y="172.62760416666674">log4j:log4j:jar:1.2.17</node>
+            <node x="290.5" y="977.078125">javax.mail:mail:jar:1.4.5</node>
+            <node x="542.0" y="977.078125">javax.mail:mail:jar:1.4.5/javax.activation:activation:jar:1.1</node>
+            <node x="254.5" y="418.56510416666674">commons-codec:commons-codec:jar:1.10</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework:spring-context:jar:4.2.5.RELEASE" target="org.springframework:spring-beans:jar:4.2.5.RELEASE">
+              <point x="57.0" y="11.25" />
+              <point x="969.0" y="675.0590277777778" />
+              <point x="1101.0" y="675.0590277777778" />
+              <point x="-53.0" y="-7.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.0.7.Final" target="org.hibernate:hibernate-core:jar:5.0.7.Final/org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1">
+              <point x="58.0" y="-9.375" />
+              <point x="396.0" y="354.19010416666674" />
+              <point x="476.0" y="188.56510416666674" />
+              <point x="-80.0" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.0.7.Final" target="org.hibernate:hibernate-core:jar:5.0.7.Final/antlr:antlr:jar:2.7.7">
+              <point x="58.0" y="13.125" />
+              <point x="396.0" y="376.69010416666674" />
+              <point x="476.0" y="535.7526041666667" />
+              <point x="-28.5" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.0.7.Final" target="org.hibernate:hibernate-core:jar:5.0.7.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final">
+              <point x="58.0" y="-1.875" />
+              <point x="396.0" y="361.69010416666674" />
+              <point x="476.0" y="328.56510416666674" />
+              <point x="-77.0" y="-0.0" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-read-properties:1.0" target="org.hibernate:hibernate-core:jar:5.0.7.Final">
+              <point x="80.5" y="-6.5625" />
+              <point x="241.0" y="363.56510416666674" />
+              <point x="-58.0" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.0.7.Final" target="org.hibernate:hibernate-core:jar:5.0.7.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
+              <point x="58.0" y="9.375" />
+              <point x="396.0" y="372.94010416666674" />
+              <point x="476.0" y="510.25260416666674" />
+              <point x="695.0" y="510.25260416666674" />
+              <point x="-55.5" y="7.5" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-read-properties:1.0" target="org.springframework:spring-beans:jar:4.2.5.RELEASE">
+              <point x="80.5" y="10.3125" />
+              <point x="241.0" y="966.578125" />
+              <point x="1101.0" y="966.578125" />
+              <point x="-53.0" y="7.5" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-read-properties:1.0" target="javax.mail:mail:jar:1.4.5">
+              <point x="80.5" y="12.1875" />
+              <point x="241.0" y="992.078125" />
+              <point x="-28.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-beans:jar:4.2.5.RELEASE" target="org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="53.0" y="-0.0" />
+              <point x="-48.5" y="5.625" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-read-properties:1.0" target="org.springframework:spring-tx:jar:4.2.5.RELEASE">
+              <point x="80.5" y="14.0625" />
+              <point x="241.0" y="1017.578125" />
+              <point x="-41.0" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.0.7.Final" target="org.hibernate:hibernate-core:jar:5.0.7.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final">
+              <point x="58.0" y="5.625" />
+              <point x="396.0" y="369.19010416666674" />
+              <point x="-109.5" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.0.7.Final" target="org.hibernate:hibernate-core:jar:5.0.7.Final/org.javassist:javassist:jar:3.18.1-GA">
+              <point x="58.0" y="1.875" />
+              <point x="396.0" y="365.44010416666674" />
+              <point x="476.0" y="398.56510416666674" />
+              <point x="-38.5" y="-0.0" />
+            </edge>
+            <edge source="javax.mail:mail:jar:1.4.5" target="javax.mail:mail:jar:1.4.5/javax.activation:activation:jar:1.1">
+              <point x="28.0" y="-0.0" />
+              <point x="-43.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.5.RELEASE" target="org.springframework:spring-context:jar:4.2.5.RELEASE">
+              <point x="59.5" y="-0.0" />
+              <point x="396.0" y="600.9366319444446" />
+              <point x="476.0" y="606.9366319444446" />
+              <point x="695.0" y="606.9366319444446" />
+              <point x="-57.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.5.RELEASE" target="org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="57.0" y="-3.75" />
+              <point x="969.0" y="617.203125" />
+              <point x="1287.0" y="617.203125" />
+              <point x="-48.5" y="-1.875" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.5.RELEASE" target="org.springframework:spring-context:jar:4.2.5.RELEASE/org.springframework:spring-expression:jar:4.2.5.RELEASE">
+              <point x="59.5" y="-6.0" />
+              <point x="396.0" y="594.9366319444446" />
+              <point x="476.0" y="584.203125" />
+              <point x="-66.0" y="-7.5" />
+            </edge>
+            <edge source="org.springframework:spring-tx:jar:4.2.5.RELEASE" target="org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="41.0" y="7.5" />
+              <point x="1287.0" y="1025.078125" />
+              <point x="-48.5" y="13.125" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.2.5.RELEASE" target="org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE">
+              <point x="48.0" y="-3.75" />
+              <point x="695.0" y="727.328125" />
+              <point x="775.0" y="658.4366319444446" />
+              <point x="889.0" y="658.4366319444446" />
+              <point x="-47.5" y="7.5" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-read-properties:1.0" target="org.hibernate:hibernate-validator:jar:5.2.2.Final">
+              <point x="80.5" y="8.4375" />
+              <point x="-70.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.2.5.RELEASE" target="org.springframework:spring-context:jar:4.2.5.RELEASE">
+              <point x="48.0" y="-11.25" />
+              <point x="695.0" y="719.828125" />
+              <point x="-57.0" y="10.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.2.5.RELEASE" target="org.springframework:spring-beans:jar:4.2.5.RELEASE">
+              <point x="48.0" y="3.75" />
+              <point x="1101.0" y="734.828125" />
+              <point x="-53.0" y="2.5" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-read-properties:1.0" target="mysql:mysql-connector-java:jar:5.1.34">
+              <point x="80.5" y="2.8125" />
+              <point x="-77.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.5.RELEASE" target="org.springframework:spring-beans:jar:4.2.5.RELEASE">
+              <point x="59.5" y="6.0" />
+              <point x="396.0" y="606.9366319444446" />
+              <point x="476.0" y="705.578125" />
+              <point x="1101.0" y="705.578125" />
+              <point x="-53.0" y="-2.5" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-read-properties:1.0" target="org.springframework:spring-web:jar:4.2.5.RELEASE">
+              <point x="80.5" y="4.6875" />
+              <point x="241.0" y="738.578125" />
+              <point x="-48.0" y="7.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-validator:jar:5.2.2.Final" target="org.hibernate:hibernate-validator:jar:5.2.2.Final/com.fasterxml:classmate:jar:1.1.0">
+              <point x="70.5" y="10.0" />
+              <point x="476.0" y="941.078125" />
+              <point x="-43.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-core:jar:4.2.5.RELEASE" target="org.springframework:spring-core:jar:4.2.5.RELEASE/commons-logging:commons-logging:jar:1.2">
+              <point x="48.5" y="-0.0" />
+              <point x="-69.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.5.RELEASE" target="org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE">
+              <point x="57.0" y="3.75" />
+              <point x="969.0" y="638.953125" />
+              <point x="-47.5" y="-7.5" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-read-properties:1.0" target="log4j:log4j:jar:1.2.17">
+              <point x="80.5" y="-10.3125" />
+              <point x="241.0" y="187.62760416666674" />
+              <point x="-30.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.5.RELEASE" target="org.springframework:spring-context:jar:4.2.5.RELEASE/org.springframework:spring-expression:jar:4.2.5.RELEASE">
+              <point x="57.0" y="-11.25" />
+              <point x="-66.0" y="7.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE" target="org.springframework:spring-beans:jar:4.2.5.RELEASE">
+              <point x="47.5" y="10.0" />
+              <point x="1101.0" y="656.453125" />
+              <point x="-53.0" y="-12.5" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-read-properties:1.0" target="org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="80.5" y="-12.1875" />
+              <point x="241.0" y="40.5" />
+              <point x="1287.0" y="40.5" />
+              <point x="-48.5" y="-13.125" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-read-properties:1.0" target="javax.servlet:servlet-api:jar:2.5">
+              <point x="80.5" y="-2.8125" />
+              <point x="241.0" y="503.56510416666674" />
+              <point x="-45.5" y="-0.0" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-read-properties:1.0" target="org.springframework:spring-context:jar:4.2.5.RELEASE">
+              <point x="80.5" y="0.9375" />
+              <point x="241.0" y="635.0616319444446" />
+              <point x="695.0" y="635.0616319444446" />
+              <point x="-57.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE" target="org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="47.5" y="-10.0" />
+              <point x="1101.0" y="636.453125" />
+              <point x="1181.0" y="620.953125" />
+              <point x="1287.0" y="620.953125" />
+              <point x="-48.5" y="1.875" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.0.7.Final" target="org.hibernate:hibernate-core:jar:5.0.7.Final/dom4j:dom4j:jar:1.6.1">
+              <point x="58.0" y="-13.125" />
+              <point x="396.0" y="350.44010416666674" />
+              <point x="476.0" y="118.56510416666674" />
+              <point x="-34.5" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-validator:jar:5.2.2.Final" target="org.hibernate:hibernate-validator:jar:5.2.2.Final/javax.validation:validation-api:jar:1.1.0.Final">
+              <point x="70.5" y="-0.0" />
+              <point x="-55.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.5.RELEASE" target="org.springframework:spring-web:jar:4.2.5.RELEASE">
+              <point x="59.5" y="12.0" />
+              <point x="396.0" y="612.9366319444446" />
+              <point x="476.0" y="723.578125" />
+              <point x="-48.0" y="-7.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.0.7.Final" target="org.hibernate:hibernate-core:jar:5.0.7.Final/org.jboss:jandex:jar:2.0.0.Final">
+              <point x="58.0" y="-5.625" />
+              <point x="396.0" y="357.94010416666674" />
+              <point x="476.0" y="258.56510416666674" />
+              <point x="-35.0" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-validator:jar:5.2.2.Final" target="org.hibernate:hibernate-validator:jar:5.2.2.Final/org.jboss.logging:jboss-logging:jar:3.2.1.Final">
+              <point x="70.5" y="-10.0" />
+              <point x="476.0" y="801.078125" />
+              <point x="-55.5" y="-0.0" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-read-properties:1.0" target="org.aspectj:aspectjweaver:jar:1.8.9">
+              <point x="80.5" y="6.5625" />
+              <point x="241.0" y="784.6866319444446" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-read-properties:1.0" target="javax.servlet.jsp:jsp-api:jar:2.0">
+              <point x="80.5" y="-14.0625" />
+              <point x="241.0" y="15.0" />
+              <point x="-35.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.2.5.RELEASE/org.springframework:spring-expression:jar:4.2.5.RELEASE" target="org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="66.0" y="-0.0" />
+              <point x="1287.0" y="591.703125" />
+              <point x="-48.5" y="-5.625" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.0.7.Final/dom4j:dom4j:jar:1.6.1" target="org.hibernate:hibernate-core:jar:5.0.7.Final/dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2">
+              <point x="34.5" y="-0.0" />
+              <point x="-40.0" y="-0.0" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-read-properties:1.0" target="org.springframework:spring-webmvc:jar:4.2.5.RELEASE">
+              <point x="80.5" y="-0.9375" />
+              <point x="241.0" y="600.9366319444446" />
+              <point x="-59.5" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.0.7.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final" target="org.hibernate:hibernate-core:jar:5.0.7.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
+              <point x="109.5" y="-0.0" />
+              <point x="-55.5" y="-7.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.2.5.RELEASE" target="org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="48.0" y="11.25" />
+              <point x="695.0" y="742.328125" />
+              <point x="775.0" y="984.828125" />
+              <point x="1287.0" y="984.828125" />
+              <point x="-48.5" y="9.375" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE" target="org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="47.5" y="-0.0" />
+              <point x="-49.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-tx:jar:4.2.5.RELEASE" target="org.springframework:spring-beans:jar:4.2.5.RELEASE">
+              <point x="41.0" y="-7.5" />
+              <point x="1101.0" y="1010.078125" />
+              <point x="-53.0" y="12.5" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-read-properties:1.0" target="commons-codec:commons-codec:jar:1.10">
+              <point x="80.5" y="-4.6875" />
+              <point x="241.0" y="433.56510416666674" />
+              <point x="-64.0" y="-0.0" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-read-properties:1.0" target="javax.servlet:jstl:jar:1.2">
+              <point x="80.5" y="-8.4375" />
+              <point x="241.0" y="257.62760416666674" />
+              <point x="-23.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.2.5.RELEASE" target="org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="59.5" y="-12.0" />
+              <point x="396.0" y="588.9366319444446" />
+              <point x="476.0" y="566.203125" />
+              <point x="1287.0" y="566.203125" />
+              <point x="-48.5" y="-9.375" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="1233.0" y="733.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/util/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/domain/SimpleController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/domain/HelloController.java" />
+    <entry file="uml://MAVEN/com.vonzhou.learning:spring-logging-example:1.0">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.vonzhou.learning:spring-logging-example:1.0</OriginalElement>
+          <nodes>
+            <node x="0.0" y="211.4375">com.vonzhou.learning:spring-logging-example:1.0</node>
+            <node x="1218.0" y="141.70982142857142">org.springframework:spring-core:jar:4.3.7.RELEASE</node>
+            <node x="1032.0" y="123.95982142857142">org.springframework:spring-beans:jar:4.3.7.RELEASE</node>
+            <node x="450.0" y="105.33482142857142">org.springframework:spring-web:jar:4.3.7.RELEASE</node>
+            <node x="838.5" y="158.70982142857142">org.springframework:spring-web:jar:4.3.7.RELEASE/org.springframework:spring-aop:jar:4.3.7.RELEASE</node>
+            <node x="626.0" y="191.52232142857142">org.springframework:spring-context:jar:4.3.7.RELEASE</node>
+            <node x="820.0" y="220.77232142857142">org.springframework:spring-context:jar:4.3.7.RELEASE/org.springframework:spring-expression:jar:4.3.7.RELEASE</node>
+            <node x="845.0" y="50.999999999999986">org.springframework:spring-tx:jar:4.3.7.RELEASE</node>
+            <node x="254.5" y="0.0">org.aspectj:aspectjweaver:jar:1.8.9</node>
+            <node x="251.0" y="177.3125">org.springframework:spring-webmvc:jar:4.3.7.RELEASE</node>
+            <node x="265.0" y="282.77232142857144">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="260.0" y="410.20982142857144">org.slf4j:jcl-over-slf4j:jar:1.5.8</node>
+            <node x="459.5" y="387.27232142857144">org.slf4j:slf4j-api:jar:1.5.8</node>
+            <node x="259.5" y="333.77232142857144">org.slf4j:slf4j-log4j12:jar:1.5.8</node>
+            <node x="467.5" y="317.27232142857144">log4j:log4j:jar:1.2.14</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.7.RELEASE" target="org.springframework:spring-web:jar:4.3.7.RELEASE/org.springframework:spring-aop:jar:4.3.7.RELEASE">
+              <point x="59.5" y="-2.5" />
+              <point x="450.0" y="173.70982142857142" />
+              <point x="-47.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.7.RELEASE" target="org.springframework:spring-context:jar:4.3.7.RELEASE/org.springframework:spring-expression:jar:4.3.7.RELEASE">
+              <point x="57.0" y="11.25" />
+              <point x="-66.0" y="-7.5" />
+            </edge>
+            <edge source="org.slf4j:slf4j-log4j12:jar:1.5.8" target="log4j:log4j:jar:1.2.14">
+              <point x="51.0" y="-7.5" />
+              <point x="-30.5" y="7.5" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-logging-example:1.0" target="log4j:log4j:jar:1.2.14">
+              <point x="85.5" y="6.25" />
+              <point x="251.0" y="323.27232142857144" />
+              <point x="-30.5" y="-7.5" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-logging-example:1.0" target="org.slf4j:slf4j-log4j12:jar:1.5.8">
+              <point x="85.5" y="8.75" />
+              <point x="-51.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-beans:jar:4.3.7.RELEASE" target="org.springframework:spring-core:jar:4.3.7.RELEASE">
+              <point x="53.0" y="-0.0" />
+              <point x="-48.5" y="-1.875" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.7.RELEASE" target="org.springframework:spring-beans:jar:4.3.7.RELEASE">
+              <point x="48.0" y="-3.75" />
+              <point x="626.0" y="119.37499999999999" />
+              <point x="952.0" y="119.37499999999999" />
+              <point x="-53.0" y="-2.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.7.RELEASE" target="org.springframework:spring-core:jar:4.3.7.RELEASE">
+              <point x="48.0" y="-11.25" />
+              <point x="626.0" y="104.81473214285714" />
+              <point x="1138.0" y="104.81473214285714" />
+              <point x="-48.5" y="-5.625" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-logging-example:1.0" target="org.aspectj:aspectjweaver:jar:1.8.9">
+              <point x="85.5" y="-13.75" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.7.RELEASE" target="org.springframework:spring-beans:jar:4.3.7.RELEASE">
+              <point x="59.5" y="-7.5" />
+              <point x="450.0" y="148.20982142857142" />
+              <point x="952.0" y="148.20982142857142" />
+              <point x="-53.0" y="2.5" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-logging-example:1.0" target="org.slf4j:jcl-over-slf4j:jar:1.5.8">
+              <point x="85.5" y="13.75" />
+              <point x="-50.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-tx:jar:4.3.7.RELEASE" target="org.springframework:spring-beans:jar:4.3.7.RELEASE">
+              <point x="41.0" y="7.5" />
+              <point x="952.0" y="73.49999999999999" />
+              <point x="-53.0" y="-12.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.7.RELEASE/org.springframework:spring-aop:jar:4.3.7.RELEASE" target="org.springframework:spring-core:jar:4.3.7.RELEASE">
+              <point x="47.5" y="7.5" />
+              <point x="952.0" y="181.20982142857142" />
+              <point x="1032.0" y="187.20758928571428" />
+              <point x="1138.0" y="187.20758928571428" />
+              <point x="-48.5" y="1.875" />
+            </edge>
+            <edge source="org.slf4j:slf4j-log4j12:jar:1.5.8" target="org.slf4j:slf4j-api:jar:1.5.8">
+              <point x="51.0" y="7.5" />
+              <point x="-38.5" y="-10.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.7.RELEASE" target="org.springframework:spring-web:jar:4.3.7.RELEASE">
+              <point x="59.5" y="-12.5" />
+              <point x="-48.0" y="7.5" />
+            </edge>
+            <edge source="org.slf4j:jcl-over-slf4j:jar:1.5.8" target="org.slf4j:slf4j-api:jar:1.5.8">
+              <point x="50.5" y="-0.0" />
+              <point x="-38.5" y="10.0" />
+            </edge>
+            <edge source="org.springframework:spring-tx:jar:4.3.7.RELEASE" target="org.springframework:spring-core:jar:4.3.7.RELEASE">
+              <point x="41.0" y="-7.5" />
+              <point x="1138.0" y="58.499999999999986" />
+              <point x="-48.5" y="-9.375" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-logging-example:1.0" target="org.springframework:spring-webmvc:jar:4.3.7.RELEASE">
+              <point x="85.5" y="-1.25" />
+              <point x="-59.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.7.RELEASE" target="org.springframework:spring-core:jar:4.3.7.RELEASE">
+              <point x="59.5" y="12.5" />
+              <point x="450.0" y="261.27232142857144" />
+              <point x="1138.0" y="261.27232142857144" />
+              <point x="-48.5" y="13.125" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-logging-example:1.0" target="org.springframework:spring-core:jar:4.3.7.RELEASE">
+              <point x="85.5" y="-11.25" />
+              <point x="251.0" y="40.5" />
+              <point x="1138.0" y="40.5" />
+              <point x="-48.5" y="-13.125" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-logging-example:1.0" target="org.slf4j:slf4j-api:jar:1.5.8">
+              <point x="85.5" y="11.25" />
+              <point x="251.0" y="399.70982142857144" />
+              <point x="370.0" y="399.70982142857144" />
+              <point x="-38.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.7.RELEASE/org.springframework:spring-aop:jar:4.3.7.RELEASE" target="org.springframework:spring-beans:jar:4.3.7.RELEASE">
+              <point x="47.5" y="-7.5" />
+              <point x="952.0" y="166.20982142857142" />
+              <point x="-53.0" y="7.5" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.7.RELEASE" target="org.springframework:spring-context:jar:4.3.7.RELEASE">
+              <point x="48.0" y="11.25" />
+              <point x="-57.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.7.RELEASE" target="org.springframework:spring-web:jar:4.3.7.RELEASE/org.springframework:spring-aop:jar:4.3.7.RELEASE">
+              <point x="48.0" y="3.75" />
+              <point x="626.0" y="126.87499999999999" />
+              <point x="740.0" y="126.87499999999999" />
+              <point x="820.0" y="163.70982142857142" />
+              <point x="-47.5" y="-10.0" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-logging-example:1.0" target="javax.servlet:servlet-api:jar:2.5">
+              <point x="85.5" y="3.75" />
+              <point x="251.0" y="297.77232142857144" />
+              <point x="-45.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.7.RELEASE/org.springframework:spring-expression:jar:4.3.7.RELEASE" target="org.springframework:spring-core:jar:4.3.7.RELEASE">
+              <point x="66.0" y="-0.0" />
+              <point x="1138.0" y="235.77232142857142" />
+              <point x="-48.5" y="9.375" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.7.RELEASE" target="org.springframework:spring-context:jar:4.3.7.RELEASE">
+              <point x="59.5" y="2.5" />
+              <point x="450.0" y="206.52232142857142" />
+              <point x="-57.0" y="-0.0" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-logging-example:1.0" target="org.springframework:spring-context:jar:4.3.7.RELEASE">
+              <point x="85.5" y="1.25" />
+              <point x="251.0" y="272.27232142857144" />
+              <point x="546.0" y="272.27232142857144" />
+              <point x="-57.0" y="10.0" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-logging-example:1.0" target="org.springframework:spring-web:jar:4.3.7.RELEASE">
+              <point x="85.5" y="-3.75" />
+              <point x="251.0" y="112.83482142857142" />
+              <point x="-48.0" y="-7.5" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-logging-example:1.0" target="org.springframework:spring-tx:jar:4.3.7.RELEASE">
+              <point x="85.5" y="-8.75" />
+              <point x="251.0" y="65.99999999999999" />
+              <point x="-41.0" y="-0.0" />
+            </edge>
+            <edge source="com.vonzhou.learning:spring-logging-example:1.0" target="org.springframework:spring-beans:jar:4.3.7.RELEASE">
+              <point x="85.5" y="-6.25" />
+              <point x="251.0" y="91.49999999999999" />
+              <point x="952.0" y="91.49999999999999" />
+              <point x="-53.0" y="-7.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.7.RELEASE" target="org.springframework:spring-context:jar:4.3.7.RELEASE/org.springframework:spring-expression:jar:4.3.7.RELEASE">
+              <point x="59.5" y="7.5" />
+              <point x="450.0" y="243.27232142857142" />
+              <point x="-66.0" y="7.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.7.RELEASE" target="org.springframework:spring-beans:jar:4.3.7.RELEASE">
+              <point x="57.0" y="-3.75" />
+              <point x="820.0" y="199.20982142857142" />
+              <point x="952.0" y="199.20982142857142" />
+              <point x="-53.0" y="12.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.7.RELEASE" target="org.springframework:spring-web:jar:4.3.7.RELEASE/org.springframework:spring-aop:jar:4.3.7.RELEASE">
+              <point x="57.0" y="-11.25" />
+              <point x="820.0" y="183.70982142857142" />
+              <point x="-47.5" y="10.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.7.RELEASE" target="org.springframework:spring-core:jar:4.3.7.RELEASE">
+              <point x="57.0" y="3.75" />
+              <point x="1138.0" y="210.27232142857142" />
+              <point x="-48.5" y="5.625" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="139.0" y="309.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="114" column="28" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#17299#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE-sources.jar!/org/springframework/web/context/WebApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/domain/Dog.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/daos.xml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/GenericBeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConstructorArgumentValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE-sources.jar!/org/springframework/context/ApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="137" column="38" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/service/DogService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/domain/Foo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/domain/Bar.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/other/ScheduleAtFixRateDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Required.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/RequiredAnnotationBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/domain/CircularB.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/main/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/domain/CircularA.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/service-context.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/CircularA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/CircularB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/Bar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/beanoverview/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/ComplexObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/ExpensiveToCreateBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/OuterPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/CommandManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/AsyncCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Lookup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/CommandManager2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/CommandManager3.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/dao/DogDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/section7/daos.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/section7/service-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="112" column="55" selection-start-line="112" selection-start-column="55" selection-end-line="112" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/beanscopes/StateBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/dependencies/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vonzhou/learn/section7/beanscopes/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>spring-read-properties:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.53333336" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.53333336" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.53333336" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring-doc-digest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.53333336" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-logging:commons-logging:1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.53333336" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

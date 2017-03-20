@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!-- 7.3 Bean overview -->
+
+    <!--相对路径
+     given that these paths are relative, it is better form not to use the slash at all
+    -->
+    <import resource="daos.xml"/>
+
+    <!--通过name指定别名-->
+    <bean id="dog" name="dog2" class="com.vonzhou.learn.section7.beanoverview.Dog">
+        <property name="name" value="XHuang"/>
+        <property name="color" value="red"/>
+    </bean>
+
+
+    <bean id="dogService" class="com.vonzhou.learn.section7.beanoverview.DogService" factory-method="newInstance"/>
+
+    <bean id="foo" factory-bean="dogService" factory-method="createFoo"/>
+
+
+    <!-- 7.4. Dependencies -->
+
+    <bean id="bar" class="com.vonzhou.learn.section7.dependencies.Bar">
+        <constructor-arg type="int" value="100"/>
+        <constructor-arg type="java.lang.String" value="Wuhan"/>
+    </bean>
+
+    <bean id="bar2" class="com.vonzhou.learn.section7.dependencies.Bar">
+        <constructor-arg index="1" value="Wuhan"/>
+        <constructor-arg index="0" value="100"/>
+    </bean>
+
+    <!--测试循环依赖-->
+    <!--<bean id="a" class="com.vonzhou.learn.section7.dependencies.CircularA">-->
+    <!--<constructor-arg index="0" ref="b"/>-->
+    <!--</bean>-->
+    <!--<bean id="b" class="com.vonzhou.learn.section7.dependencies.CircularB">-->
+    <!--<constructor-arg index="0" ref="a"/>-->
+    <!--</bean>-->
+
+    <bean id="outer" class="com.vonzhou.learn.section7.dependencies.OuterPerson">
+        <property name="target">
+            <bean class="com.vonzhou.learn.section7.dependencies.Person">
+                <property name="name" value="vonzhou"/>  <!-- 对应要有getter,setter方法 -->
+                <property name="age" value="25"/>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="myDataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/mydb"/>
+        <property name="username" value="root"/>
+        <property name="password" value="123456"/>
+    </bean>
+
+    <!--注入集合类型的属性-->
+    <bean id="complexObj" class="com.vonzhou.learn.section7.dependencies.ComplexObject">
+        <property name="adminEmails">
+            <props>
+                <prop key="administrator">administrator@example.org</prop>
+                <prop key="support">support@example.org</prop>
+                <prop key="development">development@example.org</prop>
+            </props>
+        </property>
+        <property name="someList">
+            <list>
+                <value>a list element followed by a reference</value>
+                <ref bean="myDataSource"/>
+            </list>
+        </property>
+        <property name="someMap">
+            <map>
+                <entry key="an entry" value="just some string"/>
+                <entry key="a ref" value-ref="myDataSource"/>
+            </map>
+        </property>
+        <property name="someSet">
+            <set>
+                <value>just some string</value>
+                <ref bean="myDataSource"/>
+            </set>
+        </property>
+    </bean>
+
+    <bean id="lazy" class="com.vonzhou.learn.section7.dependencies.ExpensiveToCreateBean" lazy-init="true"/>
+
+    <bean id="cmdManager" class="com.vonzhou.learn.section7.dependencies.CommandManager"/>
+    <bean id="command" class="com.vonzhou.learn.section7.dependencies.Command"/>    <!-- 有状态的bean -->
+
+    <!-- a stateful bean deployed as a prototype (non-singleton) -->
+    <bean id="myCommand" class="com.vonzhou.learn.section7.dependencies.AsyncCommand" scope="prototype">
+        <!-- inject dependencies here as required -->
+    </bean>
+
+    <!-- commandProcessor uses statefulCommandHelper -->
+    <bean id="cmdManager2" class="com.vonzhou.learn.section7.dependencies.CommandManager2">
+        <lookup-method name="createCommand" bean="myCommand"/>
+    </bean>
+
+    <bean id="stateBean" class="com.vonzhou.learn.section7.beanscopes.StateBean" init-method="init"
+          destroy-method="shutdown" scope="prototype"/>
+
+</beans>
