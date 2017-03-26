@@ -112,4 +112,8 @@
     <bean id="stateBean" class="com.vonzhou.learn.section7.beanscopes.StateBean" init-method="init"
           destroy-method="shutdown" scope="prototype"/>
 
+
+
+    <!--7.8 Container Extension Points-->
+    <bean class="com.vonzhou.learn.section7.containerextension.InstantiationTracingBeanPostProcessor"/>
 </beans>
