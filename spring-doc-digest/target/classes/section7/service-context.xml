@@ -8,7 +8,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
 		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
-		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd"
+       default-init-method="init" default-destroy-method="destroy">
 
     <!-- 7.3 Bean overview -->
 
@@ -111,5 +112,21 @@
 
     <bean id="stateBean" class="com.vonzhou.learn.section7.beanscopes.StateBean" init-method="init"
           destroy-method="shutdown" scope="prototype"/>
+
+    <!--7.6 Customizing the nature of a bean-->
+    <bean id="initCallback1" class="com.vonzhou.learn.section7.customizebeannature.InitCallback1"/>
+    <bean id="initCallback2" class="com.vonzhou.learn.section7.customizebeannature.InitCallback2" init-method="init"/>
+
+    <context:component-scan base-package="com.vonzhou.learn"/>
+    <bean id="initCallback3" class="com.vonzhou.learn.section7.customizebeannature.InitCallback3"/>
+
+    <bean id="destroyCallback1" class="com.vonzhou.learn.section7.customizebeannature.DestroyCallback1"/>
+    <bean id="destroyCallback2" class="com.vonzhou.learn.section7.customizebeannature.DestroyCallback2"
+          destroy-method="destroy"/>
+    <bean id="destroyCallback3" class="com.vonzhou.learn.section7.customizebeannature.DestroyCallback3"/>
+
+    <bean id="lifeCycleProcessor" class="org.springframework.context.support.DefaultLifecycleProcessor"/>
+    <bean id="lifeCycleDemo" class="com.vonzhou.learn.section7.customizebeannature.LifeCycleDemo"/>
+
 
 </beans>
