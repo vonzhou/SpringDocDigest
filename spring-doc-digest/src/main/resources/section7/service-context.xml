@@ -113,6 +113,7 @@
     <bean id="stateBean" class="com.vonzhou.learn.section7.beanscopes.StateBean" init-method="init"
           destroy-method="shutdown" scope="prototype"/>
 
+<<<<<<< HEAD
     <!--7.6 Customizing the nature of a bean-->
     <bean id="initCallback1" class="com.vonzhou.learn.section7.customizebeannature.InitCallback1"/>
     <bean id="initCallback2" class="com.vonzhou.learn.section7.customizebeannature.InitCallback2" init-method="init"/>
@@ -129,4 +130,10 @@
     <bean id="lifeCycleDemo" class="com.vonzhou.learn.section7.customizebeannature.LifeCycleDemo"/>
 
 
+=======
+
+
+    <!--7.8 Container Extension Points-->
+    <bean class="com.vonzhou.learn.section7.containerextension.InstantiationTracingBeanPostProcessor"/>
+>>>>>>> bc2888ddc61b7f7dfa640dccd80ef95ff39951bf
 </beans>

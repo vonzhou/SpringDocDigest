@@ -23,14 +23,10 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="spring-doc-digest" />
-        <module name="spring-logging-example" />
-        <module name="spring-read-properties" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="spring-doc-digest" target="1.5" />
-      <module name="spring-logging-example" target="1.5" />
-      <module name="spring-read-properties" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
