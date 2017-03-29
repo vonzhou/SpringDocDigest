@@ -1,0 +1,21 @@
+package com.vonzhou.learn.section7.additional;
+
+import org.springframework.context.MessageSource;
+
+/**
+ * @version 2017/3/29.
+ */
+public class Example {
+
+    private MessageSource messages;
+
+    public void setMessages(MessageSource messages) {
+        this.messages = messages;
+    }
+
+    public void execute() {
+        String message = this.messages.getMessage("argument.required", new Object[] {"userDao"}, "Required", null);
+        System.out.println(message);
+    }
+
+}
