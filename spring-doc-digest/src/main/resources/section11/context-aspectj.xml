@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+
+    <context:component-scan base-package="com.vonzhou.learn.section11.aspectj.*"/>
+
+    <!--<aop:config>-->
+    <!--<aop:advisor-->
+    <!--pointcut="com.vonzhou.learn.section11.aspectj.SystemArchitecture.businessService()"-->
+    <!--advice-ref="tx-advice"/>-->
+    <!--</aop:config>-->
+
+    <!--<tx:advice id="tx-advice">-->
+    <!--<tx:attributes>-->
+    <!--<tx:method name="*" propagation="REQUIRED"/>-->
+    <!--</tx:attributes>-->
+    <!--</tx:advice>-->
+    <bean id="fooAop" class="com.vonzhou.learn.section11.aspectj.FooAop"/>
+    <aop:aspectj-autoproxy/>
+
+
+</beans>
