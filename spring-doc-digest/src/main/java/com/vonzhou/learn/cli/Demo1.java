@@ -3,10 +3,8 @@ package com.vonzhou.learn.cli;
 import org.apache.commons.cli.*;
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /**
  * @version 2017/4/5.
@@ -39,6 +37,8 @@ public class Demo1 {
         Integer i = 1;
         int j = 1;
         System.out.println(i.equals(j));
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        System.out.println(formatter.format(new Date()));
     }
 
     public static void parsePackArg(String arg) {

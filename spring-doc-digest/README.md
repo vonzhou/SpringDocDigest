@@ -12,6 +12,12 @@
 ## Spring AOP
 [11. Aspect Oriented Programming with Spring](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#aop)
 
+- [X] [11.1 Introduction](https://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#aop-introduction)
+- [X] [11.2 @AspectJ support](https://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#aop-ataspectj)
+- [X] [11.3 Schema-based AOP support](https://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#aop-schema)
+- [X] [11.6 Proxying mechanisms](https://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#aop-proxying)
+- [ ] ---
+
 笔记：
 
 1. AOP是通过代理实现的，an object created by the AOP framework in order to implement the aspect contracts (advise method executions and so on). In the Spring Framework, an AOP proxy will be a JDK dynamic proxy or a CGLIB proxy.
@@ -21,3 +27,17 @@
 5. 举例：实现AOP实现service层方法的重试
 
 [12. Spring AOP APIs](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#aop-api)
+
+
+
+
+
+
+- [X] [17.3 Understanding the Spring Framework transaction abstraction](https://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#transaction-strategies)
+
+理解几个重要的抽象，PlatformTransactionManager，TransactionStatus，DataSourceTransactionManager。
+
+- [X] [17.5 Declarative transaction management](https://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#transaction-declarative)
+
+
+
