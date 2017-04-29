@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- this is the service object that we want to make transactional -->
+    <bean id="fooService" class="com.vonzhou.learn.section17.declarative.DefaultFooService"/>
+
+    <!-- the profiling advice -->
+    <bean id="profiler" class="com.vonzhou.learn.section17.declarative.SimpleProfiler">
+        <!-- execute before the transactional advice (hence the lower order number) -->
+        <property name="order" value="1"/>
+    </bean>
+
+    <!-- the transactional advice (what 'happens'; see the <aop:advisor/> bean below) -->
+    <tx:advice id="txAdvice" transaction-manager="txManager">
+        <!-- the transactional semantics... -->
+        <tx:attributes>
+            <!-- all methods starting with 'get' are read-only -->
+            <tx:method name="get*" read-only="true"/>
+            <!-- other methods use the default transaction settings (see below) -->
+            <tx:method name="*"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <aop:config>
+        <aop:pointcut id="entryPointMethod" expression="execution(* com.vonzhou.learn.section17..*Service.*(..))"/>
+        <!-- will execute after the profiling advice (c.f. the order attribute) -->
+
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="entryPointMethod" order="2"/>
+        <!-- order value is higher than the profiling aspect -->
+
+        <aop:aspect id="profilingAspect" ref="profiler">
+            <aop:pointcut id="serviceMethodWithReturnValue"
+                          expression="execution(!void com.vonzhou.learn.section17..*Service.*(..))"/>
+            <aop:around method="profile" pointcut-ref="serviceMethodWithReturnValue"/>
+        </aop:aspect>
+
+    </aop:config>
+    <!-- don't forget the DataSource -->
+    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/SpringDoc?useUnicode=true"/>
+        <property name="username" value="root"/>
+        <property name="password" value="vonzhou"/>
+    </bean>
+
+    <!-- similarly, don't forget the PlatformTransactionManager -->
+    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!-- other <bean/> definitions here -->
+
+</beans>
