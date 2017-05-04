@@ -38,6 +38,7 @@
 理解几个重要的抽象，PlatformTransactionManager，TransactionStatus，DataSourceTransactionManager。
 
 - [X] [17.5 Declarative transaction management](https://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#transaction-declarative)
+- [X] [17.6 Programmatic transaction management]()
 
 
 
