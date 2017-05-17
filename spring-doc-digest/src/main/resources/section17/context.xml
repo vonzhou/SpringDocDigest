@@ -14,7 +14,7 @@
     <!-- this is the service object that we want to make transactional -->
     <bean id="fooService" class="com.vonzhou.learn.section17.declarative.DefaultFooService"/>
 
-    <!-- the transactional advice (what 'happens'; see the <aop:advisor/> bean below) -->
+    <!-- 如果transaction-manager对应的bean的名称是transactionManager则可以省略下面的指定 -->
     <tx:advice id="txAdvice" transaction-manager="txManager">
         <!-- the transactional semantics... -->
         <tx:attributes>
@@ -30,6 +30,7 @@
     <aop:config>
         <aop:pointcut id="fooServiceOperation"
                       expression="execution(* com.vonzhou.learn.section17.declarative.FooService.*(..))"/>
+        <!--关联pointcut和advice：associate the pointcut with the txAdvice using an advisor-->
         <aop:advisor advice-ref="txAdvice" pointcut-ref="fooServiceOperation"/>
     </aop:config>
 

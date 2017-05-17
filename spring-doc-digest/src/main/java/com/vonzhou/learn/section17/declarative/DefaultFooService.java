@@ -5,6 +5,11 @@ package com.vonzhou.learn.section17.declarative;
  */
 public class DefaultFooService implements FooService {
 
+    /**
+     * in the context of a transaction with read-only semantics
+     * @param fooName
+     * @return
+     */
     public Foo getFoo(String fooName) {
         throw new UnsupportedOperationException();
     }
@@ -13,6 +18,10 @@ public class DefaultFooService implements FooService {
         throw new UnsupportedOperationException();
     }
 
+    /**
+     *  in the context of a transaction with read-write semantics
+     * @param foo
+     */
     public void insertFoo(Foo foo) {
         throw new UnsupportedOperationException();
     }
