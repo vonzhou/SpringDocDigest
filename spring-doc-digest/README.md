@@ -49,6 +49,7 @@ You are strongly encouraged to use the declarative approach to rollback if at al
 
 https://docs.spring.io/spring/docs/current/spring-framework-reference/html/transaction.html#transaction-declarative-annotations
 
+- [X] [17.6 Programmatic transaction management]()
 
 
 
