@@ -1,6 +1,7 @@
 package com.vonzhou.learn.section17.programatic;
 
 import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.TransactionDefinition;
 import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.support.TransactionCallback;
 import org.springframework.transaction.support.TransactionCallbackWithoutResult;
@@ -19,9 +20,13 @@ public class SimpleService implements Service {
     public SimpleService(PlatformTransactionManager transactionManager) {
         Assert.notNull(transactionManager, "The 'transactionManager' argument must not be null.");
         this.transactionTemplate = new TransactionTemplate(transactionManager);
+
+        // the transaction settings can be set here explicitly if so desired
+        this.transactionTemplate.setIsolationLevel(TransactionDefinition.ISOLATION_READ_UNCOMMITTED);
+        this.transactionTemplate.setTimeout(30); // 30 seconds
     }
 
-    public Object someServiceMethod() {
+    public Object doInTxWithRet() {
         return transactionTemplate.execute(new TransactionCallback() {
             // the code in this method executes in a transactional context
             public Object doInTransaction(TransactionStatus status) {
@@ -31,21 +36,14 @@ public class SimpleService implements Service {
         });
     }
 
-    private void updateOperation1() {
-    }
-
-    private Object resultOfUpdateOperation2() {
-        return null;
-    }
-
-    public void fun2() {
+    public void doInTxWithoutRet() {
         transactionTemplate.execute(new TransactionCallbackWithoutResult() {
 
             protected void doInTransactionWithoutResult(TransactionStatus status) {
                 try {
                     updateOperation1();
                     updateOperation2();
-                } catch (SomeBusinessExeption ex) {
+                } catch (SomeBusinessException ex) {
                     status.setRollbackOnly();
                 }
             }
@@ -53,6 +51,13 @@ public class SimpleService implements Service {
 
     }
 
-    private void updateOperation2() throws SomeBusinessExeption {
+    private void updateOperation1() {
+    }
+
+    private Object resultOfUpdateOperation2() {
+        return null;
+    }
+
+    private void updateOperation2() throws SomeBusinessException {
     }
 }

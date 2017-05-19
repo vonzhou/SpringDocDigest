@@ -2,23 +2,16 @@
 # Reading [Spring Document](https://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/)
 
 
+- [X] [2. Introduction to the Spring Framework](https://docs.spring.io/spring/docs/current/spring-framework-reference/html/overview.html)
 
-[7. The IoC container](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#beans)
+- [X] [7. The IoC container](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#beans)
 
-[8. Resources](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#resources)
-
-
-
-## Spring AOP
-[11. Aspect Oriented Programming with Spring](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#aop)
+- [X] [8. Resources](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#resources)
 
 - [X] [11.1 Introduction](https://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#aop-introduction)
 - [X] [11.2 @AspectJ support](https://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#aop-ataspectj)
 - [X] [11.3 Schema-based AOP support](https://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#aop-schema)
 - [X] [11.6 Proxying mechanisms](https://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#aop-proxying)
-- [ ] ---
-
-笔记：
 
 1. AOP是通过代理实现的，an object created by the AOP framework in order to implement the aspect contracts (advise method executions and so on). In the Spring Framework, an AOP proxy will be a JDK dynamic proxy or a CGLIB proxy.
 2. 理清概念：PointCut定义把动作施加到哪些方法上, Advice定义施加的具体动作及时机
@@ -47,9 +40,18 @@ You are strongly encouraged to use the declarative approach to rollback if at al
 
 知道`<tx:advice/>`默认的事务属性！
 
-https://docs.spring.io/spring/docs/current/spring-framework-reference/html/transaction.html#transaction-declarative-annotations
+`@Transactional`只是一个普通的注解，只有配置了`<tx:annotation-driven/>`采用开启事务行为。
 
-- [X] [17.6 Programmatic transaction management]()
+In proxy mode (which is the default), only external method calls coming in through the proxy are intercepted. This means that self-invocation, in effect, a method within the target object calling another method of the target object, will not lead to an actual transaction at runtime even if the invoked method is marked with @Transactional. Also, the proxy must be fully initialized to provide the expected behaviour so you should not rely on this feature in your initialization code, i.e. @PostConstruct
+
+理解`@Transactional`的各个配置及默认配置。
+
+
+- [X] [17.6 Programmatic transaction management](https://docs.spring.io/spring/docs/current/spring-framework-reference/html/transaction.html#transaction-programmatic)
+
+使用TransactionTemplate ，采用回调的方式；只能通过编程方式指定事务的名字。
+
+
 
 
 
