@@ -20,14 +20,21 @@ import java.util.Map;
  * @author vonzhou
  */
 @Controller
+@RequestMapping("/simple")
 public class SimpleController {
 
     @Autowired
     private SimpleService simpleService;
 
+    @RequestMapping("/hello")
+    @ResponseBody
+    public String hello() {
+        return "Hello World";
+    }
+
     @RequestMapping("/test1")
     @ResponseBody
-    public GenericReturnObject test1(@RequestParam String param) throws Exception{
+    public GenericReturnObject test1(@RequestParam String param) throws Exception {
         System.out.println(param);
         GenericReturnObject gro = new GenericReturnObject();
         Map<String, Object> map = new HashMap<String, Object>();
@@ -40,7 +47,7 @@ public class SimpleController {
     }
 
     @ExceptionHandler(NullPointerException.class)
-    public void handleNull(NullPointerException e, HttpServletResponse response){
+    public void handleNull(NullPointerException e, HttpServletResponse response) {
         GenericReturnObject gro = new GenericReturnObject();
         gro.setSucceed(false);
         gro.setMsg(e.getMessage());
@@ -64,7 +71,7 @@ public class SimpleController {
      */
     @ExceptionHandler(SimpleException.class)
     @ResponseBody
-    public void handleSimpleException(SimpleException e, final HttpServletRequest request, HttpServletResponse response){
+    public void handleSimpleException(SimpleException e, final HttpServletRequest request, HttpServletResponse response) {
         GenericReturnObject gro = new GenericReturnObject();
         gro.setSucceed(false);
         gro.setMsg(e.getMessage());
@@ -77,7 +84,7 @@ public class SimpleController {
 
     @RequestMapping("/orders/{id}")
     @ResponseBody
-    public GenericReturnObject test1(@PathVariable long id) throws Exception{
+    public GenericReturnObject test1(@PathVariable long id) throws Exception {
         GenericReturnObject gro = new GenericReturnObject();
         Map<String, Object> map = new HashMap<String, Object>();
         map.put("name", simpleService.srv2(id));
@@ -89,18 +96,18 @@ public class SimpleController {
     }
 
     @ResponseStatus(value = HttpStatus.NOT_FOUND, reason = "Request Resource Not Found")
-    public void handleOtherException(){
+    public void handleOtherException() {
 
     }
 
-    @RequestMapping("/hello")
-    @MyAnnotation
-    public String demo(HttpServletRequest request, HttpServletResponse response){
-        return "hello";
-    }
+//    @RequestMapping("/hello")
+//    @MyAnnotation
+//    public String demo(HttpServletRequest request, HttpServletResponse response) {
+//        return "hello";
+//    }
 
     @RequestMapping("index")
-    public String index(){
+    public String index() {
         return "index";
     }
 
