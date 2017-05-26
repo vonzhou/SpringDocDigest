@@ -52,6 +52,8 @@ In proxy mode (which is the default), only external method calls coming in throu
 使用TransactionTemplate ，采用回调的方式；只能通过编程方式指定事务的名字。
 
 
+## 阅读 JavaDoc
 
+[@Configuration](http://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Configuration.html)
 
 

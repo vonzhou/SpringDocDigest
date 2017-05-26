@@ -78,11 +78,34 @@ RequestMappingHandlerMapping automatically looks for @RequestMapping annotations
 ```
 
 
-
-
-
 - [ ] [22.5 Resolving views]()
 
+
+- [ ] [22.11 Handling exceptions](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-exceptionhandlers)
+
+使用@ExceptionHandler.
+
+DefaultHandlerExceptionResolve负责把Spring MVC异常转成特定的状态码.
+
+
+- [ ] [22.13 Convention over configuration support](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-coc)
+
+
+
+- [ ] [22.14 HTTP caching support](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-caching)
+
+CacheControl可以用来设置Cache-Control指令.
+
+Static resources should be served with appropriate 'Cache-Control' and conditional headers for optimal performance.
+
+
+
+
+
+22.15 Code-based Servlet container initialization
+
+
+22.16 Configuring Spring MVC
 
 
 
